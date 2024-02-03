@@ -1,0 +1,31 @@
+baseURL = "https://promocje.netlify.app/"
+languageCode = "pl"
+title = "Promocje dla Poszukiwaczy Wiedzy"
+theme = "PaperMod"
+
+[params]
+    showReadingTime = true
+    showBreadCrumbs = true
+    showPostNavLInks = true
+    showShareButtons = true
+
+  [params.cover]
+    linkFullImages = true
+
+  [params.homeInfoParams]
+    Title= "Witajcie Poszukiwacze!"
+
+
+[[menu.main]]
+ 
+  name = "Kategorie"
+  url = "/categories/"
+
+[[menu.main]]
+
+  name = "Słowa Kluczowe"
+  url = "/tags/"
+
+[[menu.main]]
+  name = "Archiwum"
+  url = "/archives/"

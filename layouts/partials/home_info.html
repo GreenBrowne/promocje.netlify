@@ -1,0 +1,23 @@
+{{- with site.Params.homeInfoParams }}
+<article class="first-entry home-info">
+    <header class="entry-header">
+        <h1>{{ .Title | markdownify }}</h1>
+		
+		<h1>Na stronie z promocjami i okazjami.<br /><br /> </h1>
+		
+		
+    </header>
+    <div class="entry-content">
+        {{ .Content | markdownify }}
+    </div>
+    <footer class="entry-footer">
+		
+        {{ partial "social_icons.html" site.Params.socialIcons }}
+		
+		<h1>Możemy tutaj dzielić się z innymi znalezionymi promocjami i okazajami w sieci.<br/><br/> </h1>
+		<h1>Miłego dnia i owocnych łowów!</h1>
+		
+		
+    </footer>
+</article>
+{{- end -}}
