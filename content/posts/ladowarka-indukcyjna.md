@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Ładowarka indukcyjna
+title: 'Ładowarka indukcyjna'
 date: '2024-03-20T11:41:45+01:00'
 tags:
   - elektronika
